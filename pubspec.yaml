@@ -1,10 +1,10 @@
-name: alowonle_poultry_manager
+name: safehand_poultry_manager
 description: "A poultry management app."
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.9.2
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
@@ -32,6 +32,7 @@ dependencies:
   printing: ^5.14.2
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
   flutter_test:
     sdk: flutter
   
@@ -43,6 +44,24 @@ dev_dependencies:
   # Linting
   flutter_lints: ^5.0.0
   riverpod_lint: ^2.6.2
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo_sm.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/images/logo_sm.png"
+    background_color: "#4CAF50"
+    theme_color: "#4CAF50"
+  windows:
+    generate: true
+    image_path: "assets/images/logo_sm.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/images/logo_sm.png"
 
 flutter:
   uses-material-design: true

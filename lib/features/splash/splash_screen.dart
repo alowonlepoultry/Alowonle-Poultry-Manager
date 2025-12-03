@@ -123,7 +123,7 @@ class _SplashScreenState extends State<SplashScreen>
                     const SizedBox(height: 40),
                     // App name
                     const Text(
-                      'Alowonle Poultry Manager',
+                      'Safehand Poultry Manager',
                       style: TextStyle(
                         fontSize: 28,
                         fontWeight: FontWeight.bold,

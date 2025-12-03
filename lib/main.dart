@@ -48,7 +48,7 @@ class _PoultryManagerAppState extends ConsumerState<PoultryManagerApp> {
     final router = ref.watch(routerProvider);
 
     return MaterialApp.router(
-      title: 'Alowonle Poultry Manager',
+      title: 'Safehand Poultry Manager',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
